@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom"
 
-function Header(){
+export default function Nav(){
     return(
-        <header>
+        <nav>
             <Link to='/'>Home</Link>
-        </header>
+        </nav>
     )
 }
-
-
-export default Header
